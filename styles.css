@@ -107,8 +107,8 @@ a{
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
-    background-image: linear-gradient(rgb(250, 9, 210), rgb(58, 83, 196));
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 300px;
     padding: 2px 60px;
     z-index: 3;
