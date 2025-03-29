@@ -1,6 +1,6 @@
 body, html{
     margin: 0;
-    background-color:#e6e6e6;
+    background-color: #fffaf1;
 
 
 }
@@ -46,19 +46,20 @@ a{
     }
 }
 .topnav {
-    background-color: #000000;
+    background-color: #fffaf1;
     width: 100%;
     position: sticky;
     top: -20px;
     left: -60px;
     overflow: hidden;
     z-index:10;
+
   }
   
 
   .topnav a {
     float: right;
-    color: #ffffff;
+    color:#50204c;
     text-align: center;
     padding: 18px 16px;
     margin-left: 7px;
@@ -104,11 +105,11 @@ a{
     position: absolute;
     top: 160px;
     margin: auto;
-    font-family: "Bebas Neue", serif;
+    font-family: "Bitter", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: white;
-    color: black;
+    background-color: #50204c;
+    color: white;
     font-size: 300px;
     padding: 2px 60px;
     z-index: 3;
@@ -150,7 +151,7 @@ a{
   }
 
   h1{
-    font-family: "Bebas Neue", serif;
+    font-family: "Bitter", serif;
     font-weight: 700;
     font-style: normal;
     color: white;
@@ -175,7 +176,7 @@ a{
   }
 
   .contact-button{
-    background-color:#9b1584;
+    background-color:#50204c;
     color: white;
     border-radius: 3px;
   }
@@ -195,7 +196,7 @@ a{
   }
 
   .contact-button:hover {
-    background-color: #9e179e;
+    background-color: #50204c;
     border-radius: 3px;
     color: white;
     transition: all .2s;
@@ -256,8 +257,7 @@ label{
   z-index: 10;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #fffaf1;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -273,11 +273,11 @@ label{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-family: "Poppins", serif;
+  font-family: "Bitter", serif;
   font-weight: 700;
   font-style: normal; ; 
   font-size: 36px;
-  color: white;
+  color: #50204c;
   display: block;
   transition: 0.3s;
 }
@@ -313,7 +313,7 @@ label{
   }
   .hamburger{
     display:block;
-    color: white;
+    color: #50204c;
     font-size:60px;
     cursor:pointer; 
     position: relative; 
@@ -529,23 +529,20 @@ q {
 
   .lbl-toggle {
     display: block;
-  
-    font-weight: bold;
-    font-family: monospace;
+    font-family: "Bitter",serif;
     font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
-  
     padding: 1rem;
-  
-    color: #000000;
-    background: #ffffff;
-  
+    color:#50204c;
+    background: #fffaf1;
     cursor: pointer;
     transition: all 0.25s ease-out;
     border-bottom: solid black 1px;
     width: 100%;
     text-align: left;
+    border-bottom: none;
+
   }
   
   .lbl-toggle:hover {
@@ -568,11 +565,11 @@ q {
   }
 
   .collapsible-content .content-inner {
-    background-image:linear-gradient(to right, pink, rgb(101, 101, 219));
+    background-color:#50204c;
+    color:white;
     border-bottom: 1px solid rgba(250, 224, 66, .45);
-  
-
     padding: .5rem 1rem;
+    height: auto;
   }
 
   .collapsible-content {
@@ -781,4 +778,6 @@ main#carousel {
 
 footer{
     text-align: center;
+    background-color:#50204c;
+    color:white;
 }
