@@ -108,7 +108,7 @@ a{
     font-family: "Bitter", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #50204c;
+    background-color: #000000;
     color: white;
     font-size: 300px;
     padding: 2px 60px;
@@ -541,7 +541,8 @@ q {
     border-bottom: solid black 1px;
     width: 100%;
     text-align: left;
-    border-bottom: none;
+    border-bottom: solid #50204c 1px;
+
 
   }
   
@@ -623,10 +624,9 @@ main#carousel {
     overflow: hidden;
     transform-style: preserve-3d;
     perspective: 600px;
-    --items: 5;
-    --middle: 3;
+    --items: 4;
+    --middle: 2;
     --position: 1;
-    pointer-events: none;
   }
   
   div.item {
@@ -644,19 +644,19 @@ main#carousel {
   
   div.item:nth-of-type(1) {
     --offset: 1;
-    background-image: url("renee_background.gif");
+    background-color: #50204c;
   }
   div.item:nth-of-type(2) {
     --offset: 2;
-    background-image: url("sarah_background.gif");
+    background-color: #5c455a;
   }
   div.item:nth-of-type(3) {
     --offset: 3;
-    background-image: url("ri_background.gif");
+    background-color: #763672;
   }
   div.item:nth-of-type(4) {
     --offset: 4;
-    background-image: url("renee_background.gif");
+    background-color: #271a26;
   }
   div.item:nth-of-type(5) {
     --offset: 5;
@@ -668,7 +668,7 @@ main#carousel {
     grid-row: 2 / 3;
   }
   input:nth-of-type(1):checked ~ main#carousel {
-    --position: 3;
+    --position: 1;
   }
   
   input:nth-of-type(2) {
@@ -781,3 +781,52 @@ footer{
     background-color:#50204c;
     color:white;
 }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
