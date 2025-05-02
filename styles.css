@@ -91,6 +91,7 @@ a{
     overflow: hidden;
     position: relative;
     top: -36px;
+    background-color: #cfc0a6;
     
   }
 
@@ -103,20 +104,16 @@ a{
   
   .banner-header{
     position: absolute;
-    top: 160px;
-    margin: auto;
+    top: 80px;
+
     font-family: "Bitter", serif;
     font-weight: 400;
     font-style: normal;
     background-color: #000000;
     color: white;
     font-size: 300px;
-    padding: 2px 60px;
     z-index: 3;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+  
 }
   .topnav a:hover {
     border-radius: 3px;
@@ -330,6 +327,7 @@ label{
 
   .banner-header{
     font-size: x-large;
+    
   }
 
 
@@ -354,19 +352,21 @@ li{
 }
 
 .erik{
-  background-image: url("erik.gif");
+  background-color: #50204c;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   position: relative;
-  top: 100px;
+  top: -70px;
   width: 100%;
-  border-bottom: solid rgb(36, 36, 36) 20px;
+
 }
 
-
+p1{
+  font-family: 'Poppins',serif;
+}
 .sara{
-    background-image: url("sarah_background.gif");
+    background-color: #50204c;
     background-repeat: no-repeat,repeat;
     background-size: cover;
     color: white;
@@ -377,7 +377,7 @@ li{
 }
 
 .ri{
-    background-image: url("ri_background.gif");
+    background-color: #50204c;
     background-repeat: no-repeat,repeat;
     background-size: cover;
     color: white;
@@ -484,7 +484,7 @@ q {
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 500px;
     position: relative;
     top: -30px;
   }
@@ -660,7 +660,7 @@ main#carousel {
   }
   div.item:nth-of-type(5) {
     --offset: 5;
-    background-image: url("erik.gif");
+    background-color: #50204c;
   }
   
   input:nth-of-type(1) {
